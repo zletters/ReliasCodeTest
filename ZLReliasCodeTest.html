@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html>
+
+<link rel="stylesheet" type="text/css" href="CSS/Design.css">
+<head>
+<script src="JS/Functions.js"></script>
+<title value="Test">ZLReliasCodeTest</title>
+</head>
+<body>
+
+<h1 align="center">Zack Letters Relias Coding Test</h1>
+<div align = "center">
+	  <text>Keyword to Search:</text> <input type="text" name="fname" id="keywordID" color="purple" onkeydown='KeyPressed(event, document.getElementById("keywordID").value, document.getElementById("resultTable"), document.getElementById("errorMessage"))'>
+	  <input style="custombutton" type="button" value="Search MovieDB" onclick='StartSearch(document.getElementById("keywordID").value, document.getElementById("resultTable"), document.getElementById("errorMessage"))' >	
+</div>
+<br>
+<table id="resultTable" align="center">
+	<thead>
+		<th width="10%">Title</th>
+		<th width="5%">Vote Average</th>
+		<th width="5%">Popularity</th>
+		<th width="5%">Language</th>
+		<th width="10%">Original Title</th>
+		<th width="55%">Overview</th>
+		<th width="10%">Release Date</th>		
+	</thead>
+	
+
+	
+</table>    
+ <h2 id="errorMessage" align="center">Enter a keyword to search for results in MovieDB</h2>                      
+
+
+</body>
+</html>
+
+
